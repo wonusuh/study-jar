@@ -1,7 +1,6 @@
 FROM amazoncorretto:17
 
 COPY sale-0.0.1-SNAPSHOT.jar /app/sale.jar
-COPY entrypoint.sh /app/entrypoint.sh
 
 ENV APP_HOME /app
 EXPOSE 8081
